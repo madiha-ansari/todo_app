@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(./assests/star.gif);
+    background-size: cover;
+}
+
+.li {
+    list-style-type: none;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 2px 1px 8px rgb(12, 100, 187);
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    padding-left: 0px !important;
+}
+
+.btnStyle1 {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.btnStyle {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 6px;
+}
